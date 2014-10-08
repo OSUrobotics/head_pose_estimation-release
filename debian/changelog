@@ -1,8 +1,0 @@
-ros-hydro-head-pose-estimation (1.0.1-0raring) raring; urgency=high
-
-  * catkinize and cleanup in preparation for release
-  * Contributors: Dan Lazewatsky
-
- -- Dan Lazewatsky <dan@lazewatsky.com>  Tue, 07 Oct 2014 05:00:00 -0000
-
-
