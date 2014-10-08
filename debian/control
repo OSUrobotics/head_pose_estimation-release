@@ -1,0 +1,12 @@
+Source: ros-hydro-head-pose-estimation
+Section: misc
+Priority: extra
+Maintainer: Dan Lazewatsky <dan@lazewatsky.com>
+Build-Depends: debhelper (>= 9.0.0), python-numpy, ros-hydro-angles, ros-hydro-catkin, ros-hydro-cv-bridge, ros-hydro-dynamic-reconfigure, ros-hydro-face-detector, ros-hydro-geometry-msgs, ros-hydro-image-transport, ros-hydro-message-filters, ros-hydro-orocos-kdl, ros-hydro-pcl-ros, ros-hydro-people-msgs, ros-hydro-roscpp, ros-hydro-rospy, ros-hydro-sensor-msgs, ros-hydro-tf
+Homepage: http://ros.org/wiki/head_pose_estimation
+Standards-Version: 3.9.2
+
+Package: ros-hydro-head-pose-estimation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-numpy, ros-hydro-angles, ros-hydro-cv-bridge, ros-hydro-dynamic-reconfigure, ros-hydro-face-detector, ros-hydro-geometry-msgs, ros-hydro-image-transport, ros-hydro-message-filters, ros-hydro-pcl-ros, ros-hydro-people-msgs, ros-hydro-roscpp, ros-hydro-rospy, ros-hydro-sensor-msgs, ros-hydro-tf
+Description: ROS wrapper around Fanelli et al.'s Real Time Head Pose Estimation from Consumer Depth Cameras. 33rd Annual Symposium of the German Association for Pattern Recognition (DAGM'11), 2011.
