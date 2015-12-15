@@ -1,0 +1,12 @@
+Source: ros-indigo-head-pose-estimation
+Section: misc
+Priority: extra
+Maintainer: Dan Lazewatsky <dan@lazewatsky.com>
+Build-Depends: debhelper (>= 9.0.0), python-numpy, ros-indigo-angles, ros-indigo-catkin, ros-indigo-cv-bridge, ros-indigo-dynamic-reconfigure, ros-indigo-face-detector, ros-indigo-geometry-msgs, ros-indigo-image-transport, ros-indigo-message-filters, ros-indigo-orocos-kdl, ros-indigo-pcl-ros, ros-indigo-people-msgs, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-sensor-msgs, ros-indigo-tf
+Homepage: http://ros.org/wiki/head_pose_estimation
+Standards-Version: 3.9.2
+
+Package: ros-indigo-head-pose-estimation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-numpy, ros-indigo-angles, ros-indigo-cv-bridge, ros-indigo-dynamic-reconfigure, ros-indigo-face-detector, ros-indigo-geometry-msgs, ros-indigo-image-transport, ros-indigo-message-filters, ros-indigo-pcl-ros, ros-indigo-people-msgs, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-sensor-msgs, ros-indigo-tf
+Description: ROS wrapper around Fanelli et al.'s Real Time Head Pose Estimation from Consumer Depth Cameras. 33rd Annual Symposium of the German Association for Pattern Recognition (DAGM'11), 2011.

@@ -1,0 +1,23 @@
+ros-indigo-head-pose-estimation (1.0.3-0saucy) saucy; urgency=high
+
+  * cleanup
+  * remove unused launch files
+  * Contributors: Dan Lazewatsky
+
+ -- Dan Lazewatsky <dan@lazewatsky.com>  Tue, 11 Nov 2014 06:00:00 -0000
+
+ros-indigo-head-pose-estimation (1.0.2-0saucy) saucy; urgency=high
+
+  * add kdl dep
+  * Contributors: Dan Lazewatsky
+
+ -- Dan Lazewatsky <dan@lazewatsky.com>  Wed, 08 Oct 2014 05:00:00 -0000
+
+ros-indigo-head-pose-estimation (1.0.1-0saucy) saucy; urgency=high
+
+  * catkinize and cleanup in preparation for release
+  * Contributors: Dan Lazewatsky
+
+ -- Dan Lazewatsky <dan@lazewatsky.com>  Tue, 07 Oct 2014 05:00:00 -0000
+
+
