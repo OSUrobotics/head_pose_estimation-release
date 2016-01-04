@@ -1,3 +1,24 @@
+## head_pose_estimation (jade) - 1.0.3-0
+
+The packages in the `head_pose_estimation` repository were released into the `jade` distro by running `/usr/bin/bloom-release head_pose_estimation --track jade --rosdistro jade --new-track` on `Mon, 04 Jan 2016 21:13:35 -0000`
+
+The `head_pose_estimation` package was released.
+
+Version of package(s) in repository `head_pose_estimation`:
+- upstream repository: https://github.com/OSUrobotics/ros-head-tracking.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.3-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.38`
+
+
 ## head_pose_estimation (indigo) - 1.0.3-0
 
 The packages in the `head_pose_estimation` repository were released into the `indigo` distro by running `/usr/bin/bloom-release head_pose_estimation --track indigo --rosdistro indigo --new-track` on `Tue, 15 Dec 2015 18:31:30 -0000`
