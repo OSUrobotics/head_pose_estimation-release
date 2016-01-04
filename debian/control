@@ -1,0 +1,12 @@
+Source: ros-jade-head-pose-estimation
+Section: misc
+Priority: extra
+Maintainer: Dan Lazewatsky <dan@lazewatsky.com>
+Build-Depends: debhelper (>= 9.0.0), python-numpy, ros-jade-angles, ros-jade-catkin, ros-jade-cv-bridge, ros-jade-dynamic-reconfigure, ros-jade-face-detector, ros-jade-geometry-msgs, ros-jade-image-transport, ros-jade-message-filters, ros-jade-orocos-kdl, ros-jade-pcl-ros, ros-jade-people-msgs, ros-jade-roscpp, ros-jade-rospy, ros-jade-sensor-msgs, ros-jade-tf
+Homepage: http://ros.org/wiki/head_pose_estimation
+Standards-Version: 3.9.2
+
+Package: ros-jade-head-pose-estimation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-numpy, ros-jade-angles, ros-jade-cv-bridge, ros-jade-dynamic-reconfigure, ros-jade-face-detector, ros-jade-geometry-msgs, ros-jade-image-transport, ros-jade-message-filters, ros-jade-pcl-ros, ros-jade-people-msgs, ros-jade-roscpp, ros-jade-rospy, ros-jade-sensor-msgs, ros-jade-tf
+Description: ROS wrapper around Fanelli et al.'s Real Time Head Pose Estimation from Consumer Depth Cameras. 33rd Annual Symposium of the German Association for Pattern Recognition (DAGM'11), 2011.
